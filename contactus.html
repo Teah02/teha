@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7h7W5eb9AinFdeS3bdUSnxH-UyCllS8bOSZRJ89BNWSUNvwl3cmNB0V5z6NwFX0qduaFuvk98j4S_RZalD2W1OU-L1euhU9xXRAeHQliK2YwulkR0GrJuM32BVj7A-ItaZ3S2nNVx8sxxdFejNVgVARiwiN80Rx1_1qvoU82tzERZnSnCF3DvgKO_tReDFk7yJnr0326dV0ChBBo7ttZgQttNgxuELoZ3NYG91fAp0w0_rXLe_MhbCOd89agThTa2m21AMsJ8yvDZ2R7z-sRB3l_9ty229nPUlUUPYjxp4oasgd71OuLPFLLLlSav-sLy0woPBvJv3JPfkBt8K8jyg" charset="UTF-8"></script></head>
+<body bgcolor="#f2f2f2">
+
+<div class="header">
+   <h4><marquee style="font-family:garamond;font-size: 25px;color:black">THIS IS PUBLIC HEALTH WEBSITE | STAY UPDATE WITH US</marquee></h4>
+   <section id="main">
+	<nav>
+	<a href="index.html" class="logo"><img src="image/logo.png"></a>
+	<div class="toggle"></div>
+	<ul class="menu">
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" >HOME</a>
+  <a href="search.html">SEARCH</a>
+  <a href="aboutpublichealth.html">ABOUT PUBLIC HEALTH</a>
+  <a href="articlecollection.html">ARTICLE COLLECTION</a>
+  <a href="healthtopic.html">HEALTH TOPIC</a>
+  <a href="contactus.html"class="active">CONTACT US</a>
+  <a href="faq.html">FAQ</a>
+  <a href="aboutme.html">ABOUT ME</a>
+    </div>
+  </div> 
+<center><h1 style ="text-align:center;color:black; text-shadow: 5px 5px 5px red; font-size: 30px;font-family:Bodoni MT; "class="solid">WE HERE FOR YOU</h1><center>
+<hr class="rounded">
+<div class="container">
+  <div style="text-align:center;color:black; text-shadow: 2px 2px 2px red; font-size: 60px;font-family:impact; "class="solid"><h2>CONNECT WITH US</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="image/contactus.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">E-mail Address</label>
+        <input type="text" id="lname" name="emailaddress" placeholder="Your email">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="malaysia">Malaysia</option>
+          <option value="indonesia">Indonesia</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="comment">Comment</label>
+        <textarea id="comment" name="comment" placeholder="Write your thought or anything you like to ask,We here for help" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="icon-bar">
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="https://www.facebook.com/mohdfirdaus.mohdhelmi/"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a> 
+  </div>
+
+<div>
+<button class="open-button" onclick="openForm()">Chat With Us</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="results.html" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<div class="footer">
+  <h4>Disclaimer !</h4>
+
+<footer>
+  <p>Copyright @FatihahFuad2021 | Last Update: 22 July | Best Viewed: Google Chrome
+  <br>
+  Author: Fatihah Fuad
+</footer>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</head>
+</body>
+</html>
