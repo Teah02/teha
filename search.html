@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zY2aGmtJzFb7aAFFn4cqo5TUjKmn-lmaktghQXs2SQ1t7lnoML4Kc2o2s7UxlVKTVzrOOyJG9QqYS9MUhq-XrKYdFzD30tZG-7XavIWLO-oIT0dxxJksV5EhhSbFQLNnxUB_McvYk70DYUMwm6wSLlxg1o3rt-zZnKAKtFdQJ1hy9Fbox5MYrqe6JMJcIRkUJv3w4s5T1jsSLe8Z225tJiVHf6gd-2VZ7zkhhlFnOVeh9scO2IpSq2m8y15eUPpw1PA_mZmOQIjgg7Mw0FbRRcyBaOFJKllqzx72IzE00GbkFZL2zKZ4ibephYFI7iS_l03ci2pR6_Xuh1UE0Y9XNw" charset="UTF-8"></script></head>
+<body bgcolor="#f2f2f2">
+<div class="header">
+   <a href="https://www.youtube.com/watch?v=BtN-goy9VOY">
+<img border="0" alt="staysafebanner" src="image/staysafebanner.gif" style="width:60">
+</a>
+</div>
+<div class="header">
+   <h4><marquee style="font-family:garamond;font-size: 25px;color:black">THIS IS PUBLIC HEALTH WEBSITE | STAY UPDATE WITH US|FIND WHAT INFORMATION YOU NEED</marquee></h4>
+<section id="main">
+	<nav>
+	<a href="index.html" class="logo"><img src="image/logo.png"></a>
+	<div class="toggle"></div>
+	<ul class="menu">
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">HOME</a>
+  <a href="search.html"  class="active">FIND WHAT YOU NEED</a>
+  </div> 
+<br>
+
+<center><h1 style ="text-align:center;color:black; text-shadow: 5px 5px 5px red; font-size: 30px;font-family:garamond; "class="solid" "class="solid">Everything That You Must Acknowledge and Beware!! </h1><center>
+
+<hr class="rounded">
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="image/mental health.jfif" style="width:30%;height:7%;border: 6px solid #4d4d4d;">
+  <div class="text">Mental Health</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image/respiratory.jfif" style="width:30%;height:10%;border: 6px solid #4d4d4d;">
+  <div class="text">Respiratory Health</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="image/food diet.jfif" style="width:30%;height:10%;border: 6px solid #4d4d4d;">
+  <div class="text">Lifestyle</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+
+
+
+<br>
+<center><h1 style ="text-align:center;color:black; text-shadow: 2px 2px 2px red; font-size: 60px;font-family:impact; "class="solid">FIND YOUR HEALTH ARTICLE OR NEWS HERE </h1><center>
+<form class="example" action="/action_page.php" style="margin:auto;max-width:700px">
+  <input type="text" placeholder="Find Your Article." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+<div class="footer">
+  <h4>Disclaimer !</h4>
+
+<footer>
+  <p>Copyright @FatihahFuad2021 | Last Update: 22 July | Best Viewed: Google Chrome
+  <br>
+  Author: Fatihah Fuad
+</footer>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 9000); // Change image every 10 seconds
+}
+</script>
+</div>
+
+</head>
+</body>
+</html>
